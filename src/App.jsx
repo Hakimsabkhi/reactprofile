@@ -1,4 +1,4 @@
-import { Hero } from "./components";
+import { Hero, Navbar } from "./components";
 import styles from "./style";
 
 const App = () => (

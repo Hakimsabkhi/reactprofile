@@ -14,12 +14,17 @@ export const navLinks = [
   {
     id: "my-portfolio",
     title: "home",
-    IconName: "ffas fa-briefcase",
+    IconName: "fas fa-briefcase",
   },
   {
     id: "my-blogs",
     title: "home",
     IconName: "far fa-newspaper",
+  },
+  {
+    id: "my-blogs",
+    title: "home",
+    IconName: "fas fa-envelope-open",
   },
 ];
 
@@ -27,6 +32,6 @@ export const navLinks = [
 
 export const Porfimg = [
   {
-    img: hakim,
+    img: "hakim",
   },
 ];

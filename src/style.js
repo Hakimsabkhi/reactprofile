@@ -14,7 +14,7 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  NavIconStyle : "cursor-pointer w-14 h-14 flex justify-center items-center rounded-full bg-navbaricon hover:bg-green-500 hover:drop-shadow-glow hover:scale-110 transition ease-in-out delay-200 duration-300"
+  NavIconStyle : "cursor-pointer w-14 h-14 flex justify-center items-center rounded-full bg-navbaricon hover:bg-green-500 hover:drop-shadow-glow hover:scale-110 transition ease-in-out delay-200 duration-100"
 };
 
 export const layout = {
