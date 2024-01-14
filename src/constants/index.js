@@ -1,5 +1,4 @@
 
-
 export const navLinks = [
   {
     id: "home",
@@ -8,30 +7,22 @@ export const navLinks = [
   },
   {
     id: "about-me",
-    title: "home",
+    title: "About me",
     IconName: "fas fa-user",
   },
   {
     id: "my-portfolio",
-    title: "home",
+    title: "My portfolio",
     IconName: "fas fa-briefcase",
   },
   {
     id: "my-blogs",
-    title: "home",
+    title: "My Blogs",
     IconName: "far fa-newspaper",
   },
   {
-    id: "my-blogs",
-    title: "home",
+    id: "contact",
+    title: "Contact Me",
     IconName: "fas fa-envelope-open",
-  },
-];
-
-
-
-export const Porfimg = [
-  {
-    img: "hakim",
   },
 ];

@@ -7,7 +7,7 @@ const Navbar = () => {
     <ul> 
     {navLinks.map((nav)=>(
       <li key={nav.id} className={`${styles.NavIconStyle} my-5`}>
-        <a className={`${nav.IconName} text-white`}></a>
+        <a href= {`#${nav.id}`} className={`text-white text-xl w-14 h-14 flex justify-center`}><i className={`${nav.IconName} my-auto`}></i></a>
       </li>
     ))}
     </ul>

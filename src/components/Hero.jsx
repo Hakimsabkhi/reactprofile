@@ -1,22 +1,19 @@
 import { useState } from "react";
-
-
+import { hakim } from "../assets";
 
 
 const Hero = () => {
   return (
-    <div className="font-poppins">
-    <div>
-      <div>
-        <img  alt="" />
+    <div className="grid max-w-screen-xl min-h-screen px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div className="hidden lg:col-span-5 lg:flex">
+        <img src={hakim} className=" w-[600px] rounded-lg cursor-pointer filter grayscale" alt="" />
       </div>
-    </div>
-    <div>
-      <h1>
-        Hello, My Name is <br /><span>AbdelHakim Sabkhi<br /></span>
+    <div className=" place-self-center lg:col-span-6 text-white flex flex-col justify-around h-3/4">
+      <h1 className="text-4xl font-roboto flex flex-col justify-around h-1/4">
+        Hello, My Name is <br /><span className="text-6xl text-Green font-bold">AbdelHakim Sabkhi<br /></span>
         Full stack Web Developer & Designer
       </h1>
-      <p>
+      <p className="text-2xl font-roboto">
         A passionate creative professional who thrives in the realms of
         graphic design and web development.As a graphic designer, I pride
         myself on my ability to turn ideas into visual masterpieces, using
@@ -35,7 +32,7 @@ const Hero = () => {
       </div>
     </div>
   </div>
-  )
+  );
 }
 
 export default Hero

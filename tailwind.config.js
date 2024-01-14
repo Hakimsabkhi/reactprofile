@@ -7,10 +7,12 @@ export default {
       colors: {
         primary: "#191d2b",
         secondary: "#00f6ff",
+        Green: "#27ae60",
         navbaricon: "#454e56",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       dropShadow: {
         glow: [
