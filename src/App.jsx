@@ -1,4 +1,4 @@
-import { Navbar, Hero } from "./components";
+import { Hero } from "./components";
 import styles from "./style";
 
 const App = () => (
@@ -30,7 +30,7 @@ const App = () => (
     </div>
     <div className={`${styles.flexCenter} w-full`}>
       <div className={`${styles.boxWidth}`}>
-        <div>hello</div>
+        <Navbar/>
       </div>
     </div>
   

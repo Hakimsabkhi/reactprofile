@@ -5,10 +5,10 @@ import { useState } from "react";
 
 const Hero = () => {
   return (
-    <div className=" text-white font-poppins">
+    <div className="font-poppins">
     <div>
       <div>
-        <img src={hakim} alt="" />
+        <img  alt="" />
       </div>
     </div>
     <div>
